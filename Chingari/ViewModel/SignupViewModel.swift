@@ -15,8 +15,7 @@ class SignUpViewModel: ObservableObject {
     @Published var password: String = ""
     @Published var phoneNumber: String = ""
     @Published var isSignedUp: Bool = false
-    
-    private var cancellables = Set<AnyCancellable>()
+    @Published var userAlreadyExists: Bool = false
     
     // Validation Publishers
     var isNameValid: AnyPublisher<Bool, Never> {
@@ -67,6 +66,18 @@ class SignUpViewModel: ObservableObject {
             }
         } catch {
             print("Error storing sign-up data in Keychain: \(error.localizedDescription)")
+            if let error = error as? KeychainError {
+                switch error {
+                case .keychainError(let status):
+                    if (status == -25299) {
+                        userAlreadyExists = true
+                    } else {
+                        isSignedUp = false
+                    }
+                default:
+                    isSignedUp = false
+                }
+            }
         }
     }
 }

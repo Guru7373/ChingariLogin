@@ -8,6 +8,7 @@
 import Foundation
 
 class HomeViewModel: ObservableObject {
+    
     @Published var posts: [Post] = []
     
     init() {

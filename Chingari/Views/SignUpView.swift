@@ -90,8 +90,11 @@ struct SignUpView: View {
                         Alert(title: Text("Success"), message: Text("Signed-up successfully"), dismissButton: .default(Text("OK"), action: {
                             isPresented = false
                         }))
+                    } else if (viewModel.userAlreadyExists) {
+                        Alert(title: Text("User Exists"), message: Text("User already exists, Please sign-in."), dismissButton: .default(Text("OK"), action: {
+                        }))
                     } else {
-                        Alert(title: Text("Invalid"), message: Text("Please check all fields"), dismissButton: .default(Text("OK")))
+                        Alert(title: Text("Invalid"), message: Text("Error signing up, Please try again later"), dismissButton: .default(Text("OK")))
                     }
                 })
             }

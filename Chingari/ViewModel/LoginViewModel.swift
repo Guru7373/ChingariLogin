@@ -17,7 +17,6 @@ class LoginViewModel: ObservableObject {
     @Published var userExists: Bool?
     @Published var passwordMatched: Bool?
             
-    // Validation Publishers
     var isEmailValid: AnyPublisher<Bool, Never> {
         $email
             .map { $0.isValidEmail() }

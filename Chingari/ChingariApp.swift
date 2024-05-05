@@ -6,27 +6,17 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct ChingariApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    
+    @StateObject private var sessionManager = SessionManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
+                .environmentObject(sessionManager)
+                .preferredColorScheme(sessionManager.isDarkModeEnabled ? .dark : .light)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

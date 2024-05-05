@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		CA1A116E2BE62BEA00C3C102 /* ChingariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A116D2BE62BEA00C3C102 /* ChingariApp.swift */; };
-		CA1A11702BE62BEA00C3C102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A116F2BE62BEA00C3C102 /* ContentView.swift */; };
-		CA1A11722BE62BEA00C3C102 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A11712BE62BEA00C3C102 /* Item.swift */; };
 		CA1A11742BE62BEC00C3C102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1A11732BE62BEC00C3C102 /* Assets.xcassets */; };
 		CA1A11772BE62BEC00C3C102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1A11762BE62BEC00C3C102 /* Preview Assets.xcassets */; };
 		CA1A11812BE62BEC00C3C102 /* ChingariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A11802BE62BEC00C3C102 /* ChingariTests.swift */; };
 		CA1A118B2BE62BEC00C3C102 /* ChingariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A118A2BE62BEC00C3C102 /* ChingariUITests.swift */; };
 		CA1A118D2BE62BEC00C3C102 /* ChingariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A118C2BE62BEC00C3C102 /* ChingariUITestsLaunchTests.swift */; };
+		CA1A119A2BE62D3600C3C102 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A11992BE62D3600C3C102 /* SplashView.swift */; };
+		CA9546202BE63C7E00339D78 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95461F2BE63C7E00339D78 /* DashboardView.swift */; };
+		CA9546222BE63C8D00339D78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546212BE63C8D00339D78 /* HomeView.swift */; };
+		CA9546242BE63C9600339D78 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546232BE63C9600339D78 /* ProfileView.swift */; };
+		CA9546262BE63C9F00339D78 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546252BE63C9F00339D78 /* SettingsView.swift */; };
+		CA9546282BE65FF500339D78 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546272BE65FF500339D78 /* SessionManager.swift */; };
+		CA95462A2BE6617D00339D78 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546292BE6617D00339D78 /* LoginView.swift */; };
+		CA95462C2BE661F100339D78 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95462B2BE661F100339D78 /* SignUpView.swift */; };
+		CA9546322BE663BB00339D78 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546312BE663BB00339D78 /* KeychainService.swift */; };
+		CA9546342BE6641000339D78 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546332BE6641000339D78 /* SignupViewModel.swift */; };
+		CA9546372BE6656F00339D78 /* ValidationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546362BE6656E00339D78 /* ValidationUtils.swift */; };
+		CA9546392BE6687700339D78 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546382BE6687700339D78 /* LoginViewModel.swift */; };
+		CA9546732BE7798200339D78 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546722BE7798200339D78 /* OTPView.swift */; };
+		CA9546772BE7B9F800339D78 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546762BE7B9F800339D78 /* HomeViewModel.swift */; };
+		CA9546792BE7BA1C00339D78 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9546782BE7BA1C00339D78 /* PostModel.swift */; };
+		CA95467C2BE7C6F200339D78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95467B2BE7C6F200339D78 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +51,6 @@
 /* Begin PBXFileReference section */
 		CA1A116A2BE62BEA00C3C102 /* Chingari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chingari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1A116D2BE62BEA00C3C102 /* ChingariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChingariApp.swift; sourceTree = "<group>"; };
-		CA1A116F2BE62BEA00C3C102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CA1A11712BE62BEA00C3C102 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CA1A11732BE62BEC00C3C102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1A11762BE62BEC00C3C102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA1A117C2BE62BEC00C3C102 /* ChingariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChingariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +58,23 @@
 		CA1A11862BE62BEC00C3C102 /* ChingariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChingariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1A118A2BE62BEC00C3C102 /* ChingariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChingariUITests.swift; sourceTree = "<group>"; };
 		CA1A118C2BE62BEC00C3C102 /* ChingariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChingariUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA1A11992BE62D3600C3C102 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CA95461E2BE6381B00339D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA95461F2BE63C7E00339D78 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CA9546212BE63C8D00339D78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA9546232BE63C9600339D78 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CA9546252BE63C9F00339D78 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CA9546272BE65FF500339D78 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		CA9546292BE6617D00339D78 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CA95462B2BE661F100339D78 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CA9546312BE663BB00339D78 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		CA9546332BE6641000339D78 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		CA9546362BE6656E00339D78 /* ValidationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtils.swift; sourceTree = "<group>"; };
+		CA9546382BE6687700339D78 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CA9546722BE7798200339D78 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		CA9546762BE7B9F800339D78 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CA9546782BE7BA1C00339D78 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		CA95467B2BE7C6F200339D78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +125,14 @@
 		CA1A116C2BE62BEA00C3C102 /* Chingari */ = {
 			isa = PBXGroup;
 			children = (
+				CA95461E2BE6381B00339D78 /* Info.plist */,
+				CA95467A2BE7C6E100339D78 /* Constants */,
+				CA9546302BE663A300339D78 /* Services */,
+				CA95462E2BE6635900339D78 /* Model */,
+				CA95462D2BE6635000339D78 /* Views */,
+				CA95462F2BE6635F00339D78 /* ViewModel */,
+				CA9546352BE6656300339D78 /* Utils */,
 				CA1A116D2BE62BEA00C3C102 /* ChingariApp.swift */,
-				CA1A116F2BE62BEA00C3C102 /* ContentView.swift */,
-				CA1A11712BE62BEA00C3C102 /* Item.swift */,
 				CA1A11732BE62BEC00C3C102 /* Assets.xcassets */,
 				CA1A11752BE62BEC00C3C102 /* Preview Content */,
 			);
@@ -128,6 +162,64 @@
 				CA1A118C2BE62BEC00C3C102 /* ChingariUITestsLaunchTests.swift */,
 			);
 			path = ChingariUITests;
+			sourceTree = "<group>";
+		};
+		CA95462D2BE6635000339D78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA1A11992BE62D3600C3C102 /* SplashView.swift */,
+				CA9546292BE6617D00339D78 /* LoginView.swift */,
+				CA95462B2BE661F100339D78 /* SignUpView.swift */,
+				CA9546722BE7798200339D78 /* OTPView.swift */,
+				CA95461F2BE63C7E00339D78 /* DashboardView.swift */,
+				CA9546212BE63C8D00339D78 /* HomeView.swift */,
+				CA9546232BE63C9600339D78 /* ProfileView.swift */,
+				CA9546252BE63C9F00339D78 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA95462E2BE6635900339D78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA9546272BE65FF500339D78 /* SessionManager.swift */,
+				CA9546782BE7BA1C00339D78 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA95462F2BE6635F00339D78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA9546382BE6687700339D78 /* LoginViewModel.swift */,
+				CA9546332BE6641000339D78 /* SignupViewModel.swift */,
+				CA9546762BE7B9F800339D78 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA9546302BE663A300339D78 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA9546312BE663BB00339D78 /* KeychainService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA9546352BE6656300339D78 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CA9546362BE6656E00339D78 /* ValidationUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CA95467A2BE7C6E100339D78 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CA95467B2BE7C6F200339D78 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1A11702BE62BEA00C3C102 /* ContentView.swift in Sources */,
-				CA1A11722BE62BEA00C3C102 /* Item.swift in Sources */,
+				CA9546732BE7798200339D78 /* OTPView.swift in Sources */,
+				CA95467C2BE7C6F200339D78 /* Constants.swift in Sources */,
+				CA1A119A2BE62D3600C3C102 /* SplashView.swift in Sources */,
+				CA9546222BE63C8D00339D78 /* HomeView.swift in Sources */,
+				CA9546772BE7B9F800339D78 /* HomeViewModel.swift in Sources */,
+				CA9546242BE63C9600339D78 /* ProfileView.swift in Sources */,
+				CA9546322BE663BB00339D78 /* KeychainService.swift in Sources */,
+				CA9546792BE7BA1C00339D78 /* PostModel.swift in Sources */,
+				CA9546372BE6656F00339D78 /* ValidationUtils.swift in Sources */,
+				CA9546262BE63C9F00339D78 /* SettingsView.swift in Sources */,
+				CA9546342BE6641000339D78 /* SignupViewModel.swift in Sources */,
+				CA9546202BE63C7E00339D78 /* DashboardView.swift in Sources */,
+				CA9546392BE6687700339D78 /* LoginViewModel.swift in Sources */,
 				CA1A116E2BE62BEA00C3C102 /* ChingariApp.swift in Sources */,
+				CA95462A2BE6617D00339D78 /* LoginView.swift in Sources */,
+				CA95462C2BE661F100339D78 /* SignUpView.swift in Sources */,
+				CA9546282BE65FF500339D78 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,18 +534,25 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chingari/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chingari/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chingari;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.guru.Chingari;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.chingari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,18 +569,25 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chingari/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chingari/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chingari;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.guru.Chingari;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.chingari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
